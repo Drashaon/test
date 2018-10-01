@@ -1,0 +1,47 @@
+# test
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+
+      </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+  </head>
+
+  <body>
+
+    <img src="jspasactif.png" width="100%" height="100%" overflow: "hidden" id="masuperimage" />
+
+<div>
+      <SCRIPT language="JavaScript" type="text/javascript">
+
+          // Un tableau qui va contenir toutes tes images.
+          var images = new Array();
+          images.push("assets/img/1.jpg");
+          images.push("assets/img/2.jpg");
+          images.push("assets/img/3.jpg");
+          images.push("assets/img/4.jpg");
+
+          var pointeur = 0;
+
+          function ChangerImage(){
+          document.getElementById("masuperimage").src = images[pointeur];
+
+          if(pointeur < images.length - 1){
+          pointeur++;
+          }
+          else{
+          pointeur = 0;
+          }
+
+          setTimeout("ChangerImage()", 200)
+          }
+
+          // Charge la fonction
+          window.onload = function(){
+          ChangerImage();
+          }
+      </SCRIPT>
+    </div>
+  </body>
+</html>
