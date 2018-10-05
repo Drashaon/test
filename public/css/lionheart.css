@@ -1,0 +1,202 @@
+body {
+  padding-top: 10px;
+  background-color: rgb(1, 1, 1); /*couleur de fond*/
+  font-size: Georgia, serif; /*police d'écriture*/
+  color:rgb(0, 0, 250);
+  text-align: center; /*le texte est aligner au centre */
+}
+
+.fondimage1,.fondimage2,.fondimage3,.fondimage4,.fondimage5,.fondimage6,.fondimage7,.fondimage8,.fondimage9,.fondimage10,.fondimage11,
+.fondimage12,.fondimage13,.fondimage14,.fondimage15,.fondimage16,.fondimage17,.fondimage18,.fondimage0{
+  background-color:rgb( 213, 210, 214); /*met une couleur dérriére les class de type fond */
+  border-radius: 10px;
+}
+
+.fondimage0{
+  border-top: 3px solid blue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+}
+
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 0px 0 40px; /*marge : 40px a droite */
+  border-bottom: 1px solid rgb(1 , 1, 1);
+  margin-left: 90px;
+  height: 370px; /*hauteur */
+  width: 980px; /*longueur */
+}
+
+.menu{
+  color: rgb(208, 206, 213);
+  text-align: center;
+  border: 2px solid black;
+  line-height: 40px;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 20px; /* taille d'ecriture */
+  margin: 0px 0 150px;
+}
+
+.image1 {
+  max-width: 87%; /*permet de reduire la taille de l'image */
+	height: auto;
+  margin: 20px 0 20px;
+}
+
+.image2 {
+  max-width: 96%;
+	height: auto ;
+  margin: 20px 0 20px;
+  margin-left: 5px;
+}
+
+.image3 {
+  max-width: 97%;
+  height: auto;
+  position:center;
+  margin: 20px 0 20px;
+}
+
+.image4 {
+  max-width: 90%;
+	height: auto;
+  margin-top: 20px;
+}
+
+.image5 {
+  max-width: 60%;
+	height: auto;
+  margin-top: 5px;
+}
+
+.image6 {
+  max-width: 80%;
+	height: auto;
+  /*position:center;*/
+  /*margin: 0px 0 0px;*/
+}
+
+.imagejeu1 {
+  max-width: 60%;
+	height: auto;
+  /*position:center;*/
+  /*margin: 0px 0 0px;*/
+}
+
+.imagejeu2 {
+  max-width: 60%;
+	height: auto;
+  /*position:center;*/
+  margin: 20px 0 0px;
+}
+
+.jodie,.image7,.image8,.image9,.image10,.image11,.image12,.image13,.image14 {
+  max-width: 80%;
+	height: auto;
+  position:center;
+  margin: 10px 0 0px;
+}
+
+.video1{
+  max-width: 80%;
+  height: auto;
+  /*position:center;*/
+  margin: 20px 0 0px;*/
+}
+
+.video2{
+  max-width: 90%;
+  height: auto;
+  position:center;
+  /*margin: 0px 0 0px;*/
+}
+
+
+.logomilieu{
+  max-width: 50%;
+  height: auto;
+  position:center;
+}
+
+.logohaut{
+  max-width: 50%;
+  height: auto;
+  position:center;
+}
+
+.logo0{
+  max-width: 15%;
+  height: auto;
+  position:center;
+  margin: 20px 0 0px;
+  float: left;
+}
+
+.logo01{
+  max-width: 15%;
+  height: auto;
+  position:center;
+  margin: 20px 0 0px;
+  float: right;
+}
+
+.logo1,.logo2,.logo3,.logo4,.logo5{
+  max-width: 3%;
+  height: auto;
+  margin: 10px 0 10px;*/
+}
+
+li{
+  display: inline;
+}
+
+.textebas{
+  color: rgb(255, 255, 255);
+}
+
+.border{
+  background-color: rgb(9,9,9);
+  border-top: 3px solid blue;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  line-height: 30px; /*permet de changer la taille des interlignes*/
+  text-align: center;
+  margin: 0px 0 10px;
+  background-color:rgb( 213, 210, 214);
+}
+
+.right-row-line{
+  border-top: 1px solid rgb(1 , 1, 1);
+}
+
+.title-line{
+  border-bottom: 1px solid rgb(9 , 9, 9);
+  padding-right: 50px;
+}
+
+.left-line{
+  border-left: 1px solid rgb(9 , 9, 9);
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}

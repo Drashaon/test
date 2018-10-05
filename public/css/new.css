@@ -1,0 +1,49 @@
+body {
+  padding-top: 10px;
+  background-image: url(../La-Seance-du-Docteur/img/fond/new/33521199-fond-éclat-la-texture-d-or-avec-des-étoiles-lumières-de-noël-abstraits.jpg); /*couleur de fond*/
+  text-align: center;
+  background-attachment:fixed;
+}
+
+p{
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:15px;
+}
+
+.menu{
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:20px;
+}
+
+.video{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(50 ,50 ,50);
+}
+
+.date{
+  text-align: left;
+  color: rgb(80 ,80 ,80);
+  font-size: 20px;
+}
+
+.titre{
+  text-align: center;
+  color: rgb(0 ,0 ,0);
+  font-size: 40px;
+}
+
+
+.col-md-4 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.col-md-4:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}

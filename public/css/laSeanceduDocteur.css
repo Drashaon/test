@@ -1,0 +1,145 @@
+/* *********** EXTERIEURE ************ */
+
+body {
+  padding-top: 10px;
+  background-image: url(../La-Seance-du-Docteur/img/fond/classics/acceuil.jpg);
+  background-size: 100%;
+  text-align: center; /*le texte est aligner au centre */
+  background-attachment:fixed;
+}
+
+.menu{
+  font-size:20px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.video{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(50 ,50 ,50);
+}
+
+.date{
+  text-align: left;
+  color: rgb(80 ,80 ,80);
+  font-size: 20px;
+}
+
+.titre{
+  text-align: center;
+  color: rgb(0 ,0 ,0);
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.presentation{
+  text-align: center;
+  color: rgb(100 ,100 ,100);
+  font-size:20px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.semaine{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.acteur{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.fiche{
+  text-align: center;
+  color: blue;
+  font-size: 19px;
+  font-style: italic;
+}
+
+.épisodes{
+  color: black;
+  font-size: 19px;
+  font-style: italic;
+}
+
+.jours{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.biographie{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.partie{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.video{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.arc{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+/* *********** PARTIE VIDEO ********** */
+
+.classics{
+  background-image:url(../La-Seance-du-Docteur/img/classics.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: 100%;
+  padding-top: 18.5%;
+  padding-bottom: 19%;
+  border-radius: 10px;
+}
+
+
+.résumé{
+  text-align: center;
+  font-size:20px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.col-md-4{
+  background-image:url(../La-Seance-du-Docteur/img/doctor.png);
+  background-repeat: no-repeat;
+  background-size: 180%;
+  border-radius: 10px;
+}
+
+.matriceDiv{
+  background-image:url(../La-Seance-du-Docteur/img/matrice.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:right;
+  padding-top: 18.5%;
+  padding-bottom: 19%;
+  border-radius: 10px;
+}
+
+.matrice{
+  text-align: center;
+  font-size:20px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+}

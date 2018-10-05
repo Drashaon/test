@@ -1,0 +1,67 @@
+body {
+  padding-top: 10px;
+  background-color: rgb(0, 0, 0); /*couleur de fond*/
+  font-size: Georgia, serif; /*police d'écriture*/
+  color:rgb(0, 0, 250);
+  text-align: center; /*le texte est aligner au centre */
+}
+
+[class*="col-"], footer {
+  /*border: 2px solid blue; /* montre les box par des ligne de la couleur indiquer */
+  border-radius: 6px;
+  line-height: 30px; /*permet de changer la taille des interlignes*/
+  text-align: center;
+  margin: 0px 0 10px; /*permet la création d'espage entre les flow */
+}
+
+.fondimage0{
+  background-color:rgb( 213, 210, 214); /*met une couleur dérriére les class de type fond */
+  border-radius: 10px;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 0px 0 40px; /*marge : 40px a droite */
+  border-bottom: 1px solid #eee;
+  /*background-image: url(../img/dr-who-new-season-wallpaper.jpg); /*image de fond */
+  margin-left: 90px;
+  height: 370px; /*hauteur */
+  width: 980px; /*longueur */
+}
+
+.menu{
+  color: rgb(208, 206, 213);
+  text-align: center;
+  border: 2px solid black;
+  line-height: 40px;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 20px; /* taille d'ecriture */
+  margin: 0px 0 150px;
+}
+
+.logo0{
+  max-width: 15%;
+  height: auto;
+  position:center;
+  margin: 20px 0 0px;
+  float: left;
+}
+
+.logo01{
+  max-width: 15%;
+  height: auto;
+  position:center;
+  margin: 20px 0 0px;
+  float: right;
+}
+
+.logo1,.logo2,.logo3,.logo4,.logo5{
+  max-width: 3%;
+  height: auto;
+  margin: 10px 0 10px;*/
+}
+
+li{
+  display: inline;
+}
