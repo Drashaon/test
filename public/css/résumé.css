@@ -1,0 +1,73 @@
+body {
+  padding-top: 10px;
+  background-image: url(../La-Seance-du-Docteur/img/fond/autres/maintenance.jpg);
+  background-size: 100%;
+  text-align: center; /*le texte est aligner au centre */
+  background-attachment:fixed;
+}
+
+.menu{
+  font-size:20px;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.video{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-image: url(../La-Seance-du-Docteur/img/fond/autres/matrice-avant.jpg );
+  background-size: 100%;
+  background-attachment:fixed;
+}
+
+.date{
+  text-align: left;
+  color: rgb(80 ,80 ,80);
+  font-size: 20px;
+}
+
+.titre{
+  font-size:30px;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.presentation{
+  text-align: center;
+  color: rgb(100 ,100 ,100);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.video{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+p.partie{
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.img{
+  border-radius: 10px;
+  max-width: 32%;
+  height: auto;
+}
+
+.imgMAcc{
+  border-radius: 10px;
+  max-width: 20%;
+  height: auto;
+}
+
+.footer{
+  font-size:15px;
+  color:black;
+  font-family: 'Comic Sans MS', cursive;
+}

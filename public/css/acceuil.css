@@ -1,0 +1,22 @@
+body {
+  padding-top: 10px;
+  background-image: url(../La-Seance-du-Docteur/img/fond/autres/acceuil.png);
+  background-size: 100%;
+  text-align: center; /*le texte est aligner au centre */
+  background-attachment:fixed;
+}
+
+.row{
+  padding-top: 3%;
+}
+
+.col-md-5 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.col-md-5:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}

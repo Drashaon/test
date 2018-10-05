@@ -1,0 +1,40 @@
+body {
+  padding-top: 10px;
+  background-color: rgb(1, 1, 1); /*couleur de fond*/
+  font-size: Georgia, serif; /*police d'écriture*/
+  color:rgb(grey);
+  text-align: center; /*le texte est aligner au centre */
+}
+
+.video{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(50 ,50 ,50);
+}
+
+
+.semaine{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.acteur{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.fiche{
+  text-align: center;
+  color: blue;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.texte{
+  padding-top: 10px;
+  color: black;
+  text-align: left;
+}
